@@ -16,6 +16,6 @@ int main() {
         fprintf(stderr, "ERROR: %s\n", cudaGetErrorString(error));
         return -1;
     }
-    printf("Goodbye World (from CPU)!\n"); // Added newline character
+    printf("Goodbye World (from CPU)!\n"); 
     return 0;
 }
